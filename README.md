@@ -1,39 +1,125 @@
-# LLMWidgetMVP
+# LLM Widget iOS App
 
-개인용 Mac/iPhone LLM 위젯 MVP 구조입니다.
+> An iOS widget-based application that delivers real-time LLM-powered summaries via quick prompts using OpenAI API.
 
-## 목표
-- 앱에서 텍스트 + 이미지 입력
-- OpenAI Responses API 호출
-- 위젯용 1~3줄 요약 저장
-- WidgetKit 위젯에 마지막 결과 표시
+---
 
-## 주의
-- 이 코드는 **MVP 골격**입니다.
-- 실제 Xcode 프로젝트(.xcodeproj), Signing, Entitlements, App Group 설정은 직접 추가해야 합니다.
-- 개인용 가정으로 `API Key`는 Keychain에 저장하는 구조입니다.
-- 배포용이라면 앱에서 직접 OpenAI API를 호출하는 구조는 권장되지 않습니다.
+## 📌 Overview (English)
 
-## 추천 Target 구성
-1. iOS App
-2. macOS App
-3. Widget Extension (iOS)
-4. Widget Extension (macOS)
+This project is an iOS application with a widget extension that allows users to trigger predefined prompts and receive concise, structured responses powered by a large language model.
 
-## App Group 예시
-`group.com.example.llmwidget`
+The widget provides a fast and intuitive interface where users can interact with LLM-generated content directly from the home screen without opening the app.
 
-## 필요한 설정
-- Host app과 Widget extension 모두 같은 App Group 사용
-- Keychain Sharing 필요 시 활성화
-- Photos access 권한 추가
-- macOS에서 파일 접근 권한 설정
+---
 
-## 흐름
-1. 앱에서 텍스트 입력
-2. 이미지 선택
-3. OpenAI API 호출
-4. 결과를 `WidgetPayload`로 변환
-5. App Group 저장
-6. `WidgetCenter.shared.reloadAllTimelines()` 호출
-7. 위젯이 최신 요약 표시
+## 📌 개요 (Korean)
+
+이 프로젝트는 위젯을 통해 미리 설정된 프롬프트를 실행하고,
+LLM 기반의 요약된 응답을 빠르게 받아볼 수 있는 iOS 애플리케이션입니다.
+
+사용자는 앱을 실행하지 않고도 홈 화면 위젯에서 바로
+AI 기반 요약 정보를 확인할 수 있습니다.
+
+---
+
+## 🚀 Features
+
+* Quick prompt buttons in widget
+* Real-time LLM response generation
+* OpenAI API integration
+* Structured summary output (title + bullet points)
+* Shared data between app and widget
+* Clean SwiftUI-based UI
+* Weather-style dynamic background UI
+
+---
+
+## 🛠 Tech Stack
+
+* SwiftUI
+* WidgetKit
+* App Intents
+* OpenAI API
+* Shared App Group storage
+
+---
+
+## 🧠 Architecture
+
+### 1. iOS App
+
+* User input & prompt configuration
+* Settings management
+
+### 2. Widget Extension
+
+* Displays quick prompts
+* Sends requests directly to API
+* Shows summarized responses
+
+### 3. Shared Layer
+
+* OpenAIClient
+* QuickPromptStore
+* WidgetStore
+* SharedSettingsStore
+
+---
+
+## 📂 Project Structure
+
+```text id="w4r84g"
+ios-app/
+ios-widget/
+shared/
+```
+
+---
+
+## ⚙️ How It Works
+
+1. User taps a quick prompt button in the widget
+2. The prompt is sent to the OpenAI API
+3. The response is processed into a short summary
+4. The widget displays:
+
+   * Title
+   * Up to 3 bullet points
+
+---
+
+## 📸 Demo
+
+### Widget UI
+
+(Add your widget screenshot here)
+
+### App UI
+
+(Add your app screenshot here)
+
+---
+
+## ⚠️ Notes
+
+* API keys are NOT included in this repository
+* You must provide your own OpenAI API key
+* Ensure App Group is correctly configured for shared data
+* Widget updates are triggered via `WidgetCenter.reloadTimelines()`
+
+---
+
+## 📌 Future Work
+
+* Add more prompt customization
+* Improve UI/UX animations
+* Add streaming responses
+* Support more data sources (news, finance, weather APIs)
+* Optimize widget refresh performance
+
+---
+
+## 📄 License
+
+MIT License
+
