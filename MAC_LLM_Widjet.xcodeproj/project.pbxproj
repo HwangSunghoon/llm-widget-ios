@@ -1,0 +1,1082 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D23C9322F7159EF00985930 /* LLMAPIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23C9312F7159E400985930 /* LLMAPIConfig.swift */; };
+		7D23C9332F7159EF00985930 /* LLMAPIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23C9312F7159E400985930 /* LLMAPIConfig.swift */; };
+		7D23C9342F7159EF00985930 /* LLMAPIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23C9312F7159E400985930 /* LLMAPIConfig.swift */; };
+		7D23C9362F715D8400985930 /* ExternalAPIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23C9352F715D7300985930 /* ExternalAPIConfig.swift */; };
+		7D23C9372F715D8400985930 /* ExternalAPIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23C9352F715D7300985930 /* ExternalAPIConfig.swift */; };
+		7D23C9382F715D8400985930 /* ExternalAPIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23C9352F715D7300985930 /* ExternalAPIConfig.swift */; };
+		7D23C93A2F715DB100985930 /* RealtimeDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23C9392F715DA100985930 /* RealtimeDataService.swift */; };
+		7D23C93B2F715DB100985930 /* RealtimeDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23C9392F715DA100985930 /* RealtimeDataService.swift */; };
+		7D23C93C2F715DB100985930 /* RealtimeDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23C9392F715DA100985930 /* RealtimeDataService.swift */; };
+		7D23C93E2F72257800985930 /* QuickPromptModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23C93D2F72256F00985930 /* QuickPromptModels.swift */; };
+		7D23C93F2F72257800985930 /* QuickPromptModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23C93D2F72256F00985930 /* QuickPromptModels.swift */; };
+		7D23C9402F72257800985930 /* QuickPromptModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D23C93D2F72256F00985930 /* QuickPromptModels.swift */; };
+		7D8EAA252F6BC69600A6334B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8EAA242F6BC69600A6334B /* WidgetKit.framework */; };
+		7D8EAA272F6BC69600A6334B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8EAA262F6BC69600A6334B /* SwiftUI.framework */; };
+		7D8EAA362F6BC69700A6334B /* MAC_LLM_Widjet_WidjetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7D8EAA222F6BC69600A6334B /* MAC_LLM_Widjet_WidjetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7D8EAA622F6BC81200A6334B /* SETUP_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D8EAA612F6BC81200A6334B /* SETUP_GUIDE.md */; };
+		7D8EAA632F6BC81200A6334B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D8EAA602F6BC81200A6334B /* README.md */; };
+		7D8EAA6E2F6BC95900A6334B /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA522F6BC7FB00A6334B /* KeychainHelper.swift */; };
+		7DA8D8E72F6CD546008C7BA2 /* OpenAIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA532F6BC7FB00A6334B /* OpenAIClient.swift */; };
+		7DA8D8E82F6CD54F008C7BA2 /* WidgetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA552F6BC7FB00A6334B /* WidgetStore.swift */; };
+		7DA8D8EA2F6CD657008C7BA2 /* WidgetPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA502F6BC7FB00A6334B /* WidgetPayload.swift */; };
+		7DA8D8EB2F6CD660008C7BA2 /* OpenAIResponseSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA4F2F6BC7FB00A6334B /* OpenAIResponseSchema.swift */; };
+		7DA8D8EC2F6CD66D008C7BA2 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA522F6BC7FB00A6334B /* KeychainHelper.swift */; };
+		7DA8D8F52F6CE05C008C7BA2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8EAA242F6BC69600A6334B /* WidgetKit.framework */; };
+		7DA8D8F62F6CE05C008C7BA2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8EAA262F6BC69600A6334B /* SwiftUI.framework */; };
+		7DA8D9052F6CE05E008C7BA2 /* MAC_LLM_Widjet_iOS_WidjetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7DA8D8F42F6CE05C008C7BA2 /* MAC_LLM_Widjet_iOS_WidjetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7DA8D9152F6CE799008C7BA2 /* SharedSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8D9122F6CE784008C7BA2 /* SharedSettingsStore.swift */; };
+		7DA8D9172F70FD38008C7BA2 /* SharedSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8D9122F6CE784008C7BA2 /* SharedSettingsStore.swift */; };
+		7DA8D91C2F70FD66008C7BA2 /* QuickPromptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8D9182F70FD4F008C7BA2 /* QuickPromptStore.swift */; };
+		7DA8D91D2F70FD7C008C7BA2 /* QuickPromptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8D9182F70FD4F008C7BA2 /* QuickPromptStore.swift */; };
+		7DA8D91E2F70FD92008C7BA2 /* OpenAIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA532F6BC7FB00A6334B /* OpenAIClient.swift */; };
+		7DA8D9262F710240008C7BA2 /* WidgetPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA502F6BC7FB00A6334B /* WidgetPayload.swift */; };
+		7DA8D9272F71024D008C7BA2 /* WidgetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA552F6BC7FB00A6334B /* WidgetStore.swift */; };
+		7DA8D9282F7102B1008C7BA2 /* OpenAIResponseSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA4F2F6BC7FB00A6334B /* OpenAIResponseSchema.swift */; };
+		7DA8D9362F714E39008C7BA2 /* OpenAIResponseSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA4F2F6BC7FB00A6334B /* OpenAIResponseSchema.swift */; };
+		7DA8D9372F714E58008C7BA2 /* WidgetPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA502F6BC7FB00A6334B /* WidgetPayload.swift */; };
+		7DA8D9382F714E6F008C7BA2 /* OpenAIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA532F6BC7FB00A6334B /* OpenAIClient.swift */; };
+		7DA8D9392F714E79008C7BA2 /* QuickPromptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8D9182F70FD4F008C7BA2 /* QuickPromptStore.swift */; };
+		7DA8D93A2F714E84008C7BA2 /* SharedSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8D9122F6CE784008C7BA2 /* SharedSettingsStore.swift */; };
+		7DA8D93B2F714E8C008C7BA2 /* WidgetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EAA552F6BC7FB00A6334B /* WidgetStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D8EAA342F6BC69700A6334B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D8EA9F92F6BC5EB00A6334B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8EAA212F6BC69600A6334B;
+			remoteInfo = MAC_LLM_Widjet_WidjetExtensionExtension;
+		};
+		7DA8D9032F6CE05E008C7BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D8EA9F92F6BC5EB00A6334B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DA8D8F32F6CE05C008C7BA2;
+			remoteInfo = MAC_LLM_Widjet_iOS_WidjetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D8EAA3B2F6BC69700A6334B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7D8EAA362F6BC69700A6334B /* MAC_LLM_Widjet_WidjetExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA8D90A2F6CE05E008C7BA2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7DA8D9052F6CE05E008C7BA2 /* MAC_LLM_Widjet_iOS_WidjetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D23C92F2F7154BD00985930 /* MAC_LLM_Widjet_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MAC_LLM_Widjet_iOS.entitlements; sourceTree = "<group>"; };
+		7D23C9302F7154D100985930 /* MAC_LLM_Widjet_iOS_WidjetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MAC_LLM_Widjet_iOS_WidjetExtension.entitlements; sourceTree = "<group>"; };
+		7D23C9312F7159E400985930 /* LLMAPIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMAPIConfig.swift; sourceTree = "<group>"; };
+		7D23C9352F715D7300985930 /* ExternalAPIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalAPIConfig.swift; sourceTree = "<group>"; };
+		7D23C9392F715DA100985930 /* RealtimeDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeDataService.swift; sourceTree = "<group>"; };
+		7D23C93D2F72256F00985930 /* QuickPromptModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPromptModels.swift; sourceTree = "<group>"; };
+		7D8EAA012F6BC5EB00A6334B /* MAC_LLM_Widjet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAC_LLM_Widjet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8EAA132F6BC65B00A6334B /* MAC_LLM_Widjet_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAC_LLM_Widjet_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8EAA222F6BC69600A6334B /* MAC_LLM_Widjet_WidjetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MAC_LLM_Widjet_WidjetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8EAA242F6BC69600A6334B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		7D8EAA262F6BC69600A6334B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		7D8EAA4F2F6BC7FB00A6334B /* OpenAIResponseSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIResponseSchema.swift; sourceTree = "<group>"; };
+		7D8EAA502F6BC7FB00A6334B /* WidgetPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPayload.swift; sourceTree = "<group>"; };
+		7D8EAA522F6BC7FB00A6334B /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		7D8EAA532F6BC7FB00A6334B /* OpenAIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIClient.swift; sourceTree = "<group>"; };
+		7D8EAA552F6BC7FB00A6334B /* WidgetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetStore.swift; sourceTree = "<group>"; };
+		7D8EAA602F6BC81200A6334B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7D8EAA612F6BC81200A6334B /* SETUP_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SETUP_GUIDE.md; sourceTree = "<group>"; };
+		7D8EAA732F6BCB5A00A6334B /* MAC_LLM_Widjet_WidjetExtensionExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MAC_LLM_Widjet_WidjetExtensionExtension.entitlements; sourceTree = "<group>"; };
+		7DA8D8D92F6CD4C1008C7BA2 /* MAC_LLM_Widjet_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAC_LLM_Widjet_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA8D8F42F6CE05C008C7BA2 /* MAC_LLM_Widjet_iOS_WidjetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MAC_LLM_Widjet_iOS_WidjetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA8D9122F6CE784008C7BA2 /* SharedSettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedSettingsStore.swift; sourceTree = "<group>"; };
+		7DA8D9182F70FD4F008C7BA2 /* QuickPromptStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPromptStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7D23C92E2F71510800985930 /* Exceptions for "MAC_LLM_Widget_iOS_Widget" folder in "MAC_LLM_Widjet_iOS_WidjetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7DA8D8F32F6CE05C008C7BA2 /* MAC_LLM_Widjet_iOS_WidjetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7DA8D8DA2F6CD4C1008C7BA2 /* MAC_LLM_Widget_iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MAC_LLM_Widget_iOS;
+			sourceTree = "<group>";
+		};
+		7DA8D8F72F6CE05C008C7BA2 /* MAC_LLM_Widget_iOS_Widget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7D23C92E2F71510800985930 /* Exceptions for "MAC_LLM_Widget_iOS_Widget" folder in "MAC_LLM_Widjet_iOS_WidjetExtension" target */,
+			);
+			path = MAC_LLM_Widget_iOS_Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D8EA9FE2F6BC5EB00A6334B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8EAA102F6BC65B00A6334B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8EAA1F2F6BC69600A6334B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8EAA272F6BC69600A6334B /* SwiftUI.framework in Frameworks */,
+				7D8EAA252F6BC69600A6334B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA8D8D62F6CD4C1008C7BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA8D8F12F6CE05C008C7BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA8D8F62F6CE05C008C7BA2 /* SwiftUI.framework in Frameworks */,
+				7DA8D8F52F6CE05C008C7BA2 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D8EA9F82F6BC5EB00A6334B = {
+			isa = PBXGroup;
+			children = (
+				7D23C9302F7154D100985930 /* MAC_LLM_Widjet_iOS_WidjetExtension.entitlements */,
+				7D23C92F2F7154BD00985930 /* MAC_LLM_Widjet_iOS.entitlements */,
+				7D8EAA732F6BCB5A00A6334B /* MAC_LLM_Widjet_WidjetExtensionExtension.entitlements */,
+				7D8EAA602F6BC81200A6334B /* README.md */,
+				7D8EAA612F6BC81200A6334B /* SETUP_GUIDE.md */,
+				7D8EAA592F6BC7FB00A6334B /* Shared */,
+				7DA8D8DA2F6CD4C1008C7BA2 /* MAC_LLM_Widget_iOS */,
+				7DA8D8F72F6CE05C008C7BA2 /* MAC_LLM_Widget_iOS_Widget */,
+				7D8EAA232F6BC69600A6334B /* Frameworks */,
+				7D8EAA022F6BC5EB00A6334B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D8EAA022F6BC5EB00A6334B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D8EAA012F6BC5EB00A6334B /* MAC_LLM_Widjet.app */,
+				7D8EAA132F6BC65B00A6334B /* MAC_LLM_Widjet_Mac.app */,
+				7D8EAA222F6BC69600A6334B /* MAC_LLM_Widjet_WidjetExtensionExtension.appex */,
+				7DA8D8D92F6CD4C1008C7BA2 /* MAC_LLM_Widjet_iOS.app */,
+				7DA8D8F42F6CE05C008C7BA2 /* MAC_LLM_Widjet_iOS_WidjetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D8EAA232F6BC69600A6334B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D8EAA242F6BC69600A6334B /* WidgetKit.framework */,
+				7D8EAA262F6BC69600A6334B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D8EAA512F6BC7FB00A6334B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D23C93D2F72256F00985930 /* QuickPromptModels.swift */,
+				7D8EAA4F2F6BC7FB00A6334B /* OpenAIResponseSchema.swift */,
+				7D8EAA502F6BC7FB00A6334B /* WidgetPayload.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D8EAA542F6BC7FB00A6334B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7D23C9392F715DA100985930 /* RealtimeDataService.swift */,
+				7D23C9352F715D7300985930 /* ExternalAPIConfig.swift */,
+				7D23C9312F7159E400985930 /* LLMAPIConfig.swift */,
+				7D8EAA522F6BC7FB00A6334B /* KeychainHelper.swift */,
+				7D8EAA532F6BC7FB00A6334B /* OpenAIClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7D8EAA562F6BC7FB00A6334B /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				7DA8D9182F70FD4F008C7BA2 /* QuickPromptStore.swift */,
+				7DA8D9122F6CE784008C7BA2 /* SharedSettingsStore.swift */,
+				7D8EAA552F6BC7FB00A6334B /* WidgetStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		7D8EAA592F6BC7FB00A6334B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7D8EAA512F6BC7FB00A6334B /* Models */,
+				7D8EAA542F6BC7FB00A6334B /* Services */,
+				7D8EAA562F6BC7FB00A6334B /* Storage */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D8EAA002F6BC5EB00A6334B /* MAC_LLM_Widjet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8EAA0C2F6BC5EC00A6334B /* Build configuration list for PBXNativeTarget "MAC_LLM_Widjet" */;
+			buildPhases = (
+				7D8EA9FD2F6BC5EB00A6334B /* Sources */,
+				7D8EA9FE2F6BC5EB00A6334B /* Frameworks */,
+				7D8EA9FF2F6BC5EB00A6334B /* Resources */,
+				7D8EAA3B2F6BC69700A6334B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D8EAA352F6BC69700A6334B /* PBXTargetDependency */,
+			);
+			name = MAC_LLM_Widjet;
+			packageProductDependencies = (
+			);
+			productName = MAC_LLM_Widjet;
+			productReference = 7D8EAA012F6BC5EB00A6334B /* MAC_LLM_Widjet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D8EAA122F6BC65B00A6334B /* MAC_LLM_Widjet_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8EAA1B2F6BC65B00A6334B /* Build configuration list for PBXNativeTarget "MAC_LLM_Widjet_Mac" */;
+			buildPhases = (
+				7D8EAA0F2F6BC65B00A6334B /* Sources */,
+				7D8EAA102F6BC65B00A6334B /* Frameworks */,
+				7D8EAA112F6BC65B00A6334B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAC_LLM_Widjet_Mac;
+			packageProductDependencies = (
+			);
+			productName = MAC_LLM_Widjet_Mac;
+			productReference = 7D8EAA132F6BC65B00A6334B /* MAC_LLM_Widjet_Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D8EAA212F6BC69600A6334B /* MAC_LLM_Widjet_WidjetExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8EAA382F6BC69700A6334B /* Build configuration list for PBXNativeTarget "MAC_LLM_Widjet_WidjetExtensionExtension" */;
+			buildPhases = (
+				7D8EAA1E2F6BC69600A6334B /* Sources */,
+				7D8EAA1F2F6BC69600A6334B /* Frameworks */,
+				7D8EAA202F6BC69600A6334B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAC_LLM_Widjet_WidjetExtensionExtension;
+			packageProductDependencies = (
+			);
+			productName = MAC_LLM_Widjet_WidjetExtensionExtension;
+			productReference = 7D8EAA222F6BC69600A6334B /* MAC_LLM_Widjet_WidjetExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7DA8D8D82F6CD4C1008C7BA2 /* MAC_LLM_Widjet_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DA8D8E32F6CD4C2008C7BA2 /* Build configuration list for PBXNativeTarget "MAC_LLM_Widjet_iOS" */;
+			buildPhases = (
+				7DA8D8D52F6CD4C1008C7BA2 /* Sources */,
+				7DA8D8D62F6CD4C1008C7BA2 /* Frameworks */,
+				7DA8D8D72F6CD4C1008C7BA2 /* Resources */,
+				7DA8D90A2F6CE05E008C7BA2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DA8D9042F6CE05E008C7BA2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7DA8D8DA2F6CD4C1008C7BA2 /* MAC_LLM_Widget_iOS */,
+			);
+			name = MAC_LLM_Widjet_iOS;
+			packageProductDependencies = (
+			);
+			productName = MAC_LLM_Widjet_iOS;
+			productReference = 7DA8D8D92F6CD4C1008C7BA2 /* MAC_LLM_Widjet_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DA8D8F32F6CE05C008C7BA2 /* MAC_LLM_Widjet_iOS_WidjetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DA8D9062F6CE05E008C7BA2 /* Build configuration list for PBXNativeTarget "MAC_LLM_Widjet_iOS_WidjetExtension" */;
+			buildPhases = (
+				7DA8D8F02F6CE05C008C7BA2 /* Sources */,
+				7DA8D8F12F6CE05C008C7BA2 /* Frameworks */,
+				7DA8D8F22F6CE05C008C7BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7DA8D8F72F6CE05C008C7BA2 /* MAC_LLM_Widget_iOS_Widget */,
+			);
+			name = MAC_LLM_Widjet_iOS_WidjetExtension;
+			packageProductDependencies = (
+			);
+			productName = MAC_LLM_Widjet_iOS_WidjetExtension;
+			productReference = 7DA8D8F42F6CE05C008C7BA2 /* MAC_LLM_Widjet_iOS_WidjetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D8EA9F92F6BC5EB00A6334B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					7D8EAA002F6BC5EB00A6334B = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					7D8EAA122F6BC65B00A6334B = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					7D8EAA212F6BC69600A6334B = {
+						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
+					};
+					7DA8D8D82F6CD4C1008C7BA2 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					7DA8D8F32F6CE05C008C7BA2 = {
+						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
+					};
+				};
+			};
+			buildConfigurationList = 7D8EA9FC2F6BC5EB00A6334B /* Build configuration list for PBXProject "MAC_LLM_Widjet" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D8EA9F82F6BC5EB00A6334B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7D8EAA022F6BC5EB00A6334B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D8EAA002F6BC5EB00A6334B /* MAC_LLM_Widjet */,
+				7D8EAA122F6BC65B00A6334B /* MAC_LLM_Widjet_Mac */,
+				7D8EAA212F6BC69600A6334B /* MAC_LLM_Widjet_WidjetExtensionExtension */,
+				7DA8D8D82F6CD4C1008C7BA2 /* MAC_LLM_Widjet_iOS */,
+				7DA8D8F32F6CE05C008C7BA2 /* MAC_LLM_Widjet_iOS_WidjetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D8EA9FF2F6BC5EB00A6334B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8EAA622F6BC81200A6334B /* SETUP_GUIDE.md in Resources */,
+				7D8EAA632F6BC81200A6334B /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8EAA112F6BC65B00A6334B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8EAA202F6BC69600A6334B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA8D8D72F6CD4C1008C7BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA8D8F22F6CE05C008C7BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D8EA9FD2F6BC5EB00A6334B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8EAA0F2F6BC65B00A6334B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D23C9322F7159EF00985930 /* LLMAPIConfig.swift in Sources */,
+				7D23C93B2F715DB100985930 /* RealtimeDataService.swift in Sources */,
+				7D23C9382F715D8400985930 /* ExternalAPIConfig.swift in Sources */,
+				7D23C93E2F72257800985930 /* QuickPromptModels.swift in Sources */,
+				7DA8D9382F714E6F008C7BA2 /* OpenAIClient.swift in Sources */,
+				7DA8D9362F714E39008C7BA2 /* OpenAIResponseSchema.swift in Sources */,
+				7DA8D93A2F714E84008C7BA2 /* SharedSettingsStore.swift in Sources */,
+				7DA8D9372F714E58008C7BA2 /* WidgetPayload.swift in Sources */,
+				7DA8D9392F714E79008C7BA2 /* QuickPromptStore.swift in Sources */,
+				7D8EAA6E2F6BC95900A6334B /* KeychainHelper.swift in Sources */,
+				7DA8D93B2F714E8C008C7BA2 /* WidgetStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8EAA1E2F6BC69600A6334B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA8D8D52F6CD4C1008C7BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA8D8E72F6CD546008C7BA2 /* OpenAIClient.swift in Sources */,
+				7DA8D9152F6CE799008C7BA2 /* SharedSettingsStore.swift in Sources */,
+				7DA8D8EC2F6CD66D008C7BA2 /* KeychainHelper.swift in Sources */,
+				7DA8D8EA2F6CD657008C7BA2 /* WidgetPayload.swift in Sources */,
+				7D23C9402F72257800985930 /* QuickPromptModels.swift in Sources */,
+				7D23C93C2F715DB100985930 /* RealtimeDataService.swift in Sources */,
+				7DA8D8E82F6CD54F008C7BA2 /* WidgetStore.swift in Sources */,
+				7D23C9362F715D8400985930 /* ExternalAPIConfig.swift in Sources */,
+				7DA8D8EB2F6CD660008C7BA2 /* OpenAIResponseSchema.swift in Sources */,
+				7D23C9332F7159EF00985930 /* LLMAPIConfig.swift in Sources */,
+				7DA8D91C2F70FD66008C7BA2 /* QuickPromptStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA8D8F02F6CE05C008C7BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D23C93F2F72257800985930 /* QuickPromptModels.swift in Sources */,
+				7DA8D9282F7102B1008C7BA2 /* OpenAIResponseSchema.swift in Sources */,
+				7D23C9372F715D8400985930 /* ExternalAPIConfig.swift in Sources */,
+				7D23C9342F7159EF00985930 /* LLMAPIConfig.swift in Sources */,
+				7DA8D9172F70FD38008C7BA2 /* SharedSettingsStore.swift in Sources */,
+				7DA8D9262F710240008C7BA2 /* WidgetPayload.swift in Sources */,
+				7DA8D91E2F70FD92008C7BA2 /* OpenAIClient.swift in Sources */,
+				7DA8D91D2F70FD7C008C7BA2 /* QuickPromptStore.swift in Sources */,
+				7D23C93A2F715DB100985930 /* RealtimeDataService.swift in Sources */,
+				7DA8D9272F71024D008C7BA2 /* WidgetStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D8EAA352F6BC69700A6334B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D8EAA212F6BC69600A6334B /* MAC_LLM_Widjet_WidjetExtensionExtension */;
+			targetProxy = 7D8EAA342F6BC69700A6334B /* PBXContainerItemProxy */;
+		};
+		7DA8D9042F6CE05E008C7BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DA8D8F32F6CE05C008C7BA2 /* MAC_LLM_Widjet_iOS_WidjetExtension */;
+			targetProxy = 7DA8D9032F6CE05E008C7BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D8EAA0A2F6BC5EC00A6334B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D8EAA0B2F6BC5EC00A6334B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7D8EAA0D2F6BC5EC00A6334B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MAC_LLM_Widjet/MAC_LLM_Widjet.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU9V3Q3PF7;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khu.MAC-LLM-Widjet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D8EAA0E2F6BC5EC00A6334B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MAC_LLM_Widjet/MAC_LLM_Widjet.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU9V3Q3PF7;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khu.MAC-LLM-Widjet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7D8EAA1C2F6BC65B00A6334B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MAC_LLM_Widjet_Mac/MAC_LLM_Widjet_Mac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU9V3Q3PF7;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khu.MAC-LLM-Widjet-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D8EAA1D2F6BC65B00A6334B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MAC_LLM_Widjet_Mac/MAC_LLM_Widjet_Mac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU9V3Q3PF7;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khu.MAC-LLM-Widjet-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7D8EAA392F6BC69700A6334B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MAC_LLM_Widjet_WidjetExtensionExtension.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU9V3Q3PF7;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MAC_LLM_Widjet_WidjetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MAC_LLM_Widjet_WidjetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khu.MAC-LLM-Widjet.MAC-LLM-Widjet-WidjetExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MAC_LLM_Widjet_WidjetExtension/MAC_LLM_Widjet_WidjetExtensionExtension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D8EAA3A2F6BC69700A6334B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MAC_LLM_Widjet_WidjetExtensionExtension.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU9V3Q3PF7;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MAC_LLM_Widjet_WidjetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MAC_LLM_Widjet_WidjetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khu.MAC-LLM-Widjet.MAC-LLM-Widjet-WidjetExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MAC_LLM_Widjet_WidjetExtension/MAC_LLM_Widjet_WidjetExtensionExtension-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7DA8D8E12F6CD4C2008C7BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MAC_LLM_Widjet_iOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU9V3Q3PF7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khu.MAC-LLM-Widjet-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DA8D8E22F6CD4C2008C7BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MAC_LLM_Widjet_iOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU9V3Q3PF7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khu.MAC-LLM-Widjet-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DA8D9072F6CE05E008C7BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MAC_LLM_Widjet_iOS_WidjetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU9V3Q3PF7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MAC_LLM_Widget_iOS_Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MAC_LLM_Widjet_iOS_Widjet;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khu.MAC-LLM-Widjet-iOS.MAC-LLM-Widjet-iOS-Widjet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DA8D9082F6CE05E008C7BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MAC_LLM_Widjet_iOS_WidjetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU9V3Q3PF7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MAC_LLM_Widget_iOS_Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MAC_LLM_Widjet_iOS_Widjet;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "khu.MAC-LLM-Widjet-iOS.MAC-LLM-Widjet-iOS-Widjet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D8EA9FC2F6BC5EB00A6334B /* Build configuration list for PBXProject "MAC_LLM_Widjet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8EAA0A2F6BC5EC00A6334B /* Debug */,
+				7D8EAA0B2F6BC5EC00A6334B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8EAA0C2F6BC5EC00A6334B /* Build configuration list for PBXNativeTarget "MAC_LLM_Widjet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8EAA0D2F6BC5EC00A6334B /* Debug */,
+				7D8EAA0E2F6BC5EC00A6334B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8EAA1B2F6BC65B00A6334B /* Build configuration list for PBXNativeTarget "MAC_LLM_Widjet_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8EAA1C2F6BC65B00A6334B /* Debug */,
+				7D8EAA1D2F6BC65B00A6334B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8EAA382F6BC69700A6334B /* Build configuration list for PBXNativeTarget "MAC_LLM_Widjet_WidjetExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8EAA392F6BC69700A6334B /* Debug */,
+				7D8EAA3A2F6BC69700A6334B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DA8D8E32F6CD4C2008C7BA2 /* Build configuration list for PBXNativeTarget "MAC_LLM_Widjet_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA8D8E12F6CD4C2008C7BA2 /* Debug */,
+				7DA8D8E22F6CD4C2008C7BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DA8D9062F6CE05E008C7BA2 /* Build configuration list for PBXNativeTarget "MAC_LLM_Widjet_iOS_WidjetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA8D9072F6CE05E008C7BA2 /* Debug */,
+				7DA8D9082F6CE05E008C7BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D8EA9F92F6BC5EB00A6334B /* Project object */;
+}
